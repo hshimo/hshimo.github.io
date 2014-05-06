@@ -1,0 +1,81 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: transparent; /*bootstrap has this as white*/
+}
+
+.logo {
+  font-family: 'Fugaz One', cursive;
+  font-size: 60px;
+  color: #B9B9B9;
+  text-shadow: -1px 0 #505050, 0 1px #505050, 1px 0 #505050, 0 -1px #505050;
+  height: 100px;
+}
+
+/* http://lostandtaken.com/blog/2011/6/2/6-high-quality-seamless-paper-textures.html */
+.main-content {
+  background-image: url("../img/main_content_bg.jpg");
+  padding: 3em 3em 2em 3em;
+  border: 0;
+}
+
+.main-content h2 {
+  font-size: 22px;
+}
+
+.main-content img {
+  display: block;
+}
+
+.sidebar-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.sidebar-content h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.sidebar-content .thumbnail {
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-top: 10px;
+}
+
+.sidebar-content a.thumbnail:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.signup-container {
+  position: relative;
+  min-height: 60px;
+}
+
+.loading {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(247, 246, 244, 0.7);
+}
+
+.collapser {
+  cursor: pointer;
+}
